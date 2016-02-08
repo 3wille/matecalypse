@@ -1,2 +1,5 @@
 WTF_CSRF_ENABLED = True
 SECRET_KEY = 'you-will-never-guess'
+
+BASIC_AUTH_USERNAME = "h4xx0r"
+BASIC_AUTH_PASSWORD = "dogewow133742"
