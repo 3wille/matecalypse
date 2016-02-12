@@ -7,7 +7,6 @@ body {
 }
 
 .content {
-  width: 50vmin;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -24,20 +23,21 @@ body {
   width: 75%;
 }
 
-
-.content .bigbutton {
-  display: inline;
-  background-color: red; /* Green */
-  background-size: contain;
-  background-position: center;
+.content .roundhero {
   border-radius: 50%;
   width: 50vmin;
   height: 50vmin;
   border: none;
+}
+
+.content .bigbutton {
+  display: block;
+  background-color: red;
+  background-size: contain;
+
   color: white;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   font-size: 300%;
   font-weight: bolder;
   box-shadow: 5px 5px 5px black;
@@ -47,6 +47,17 @@ body {
   transform: translate(2px, 2px);
   box-shadow: 3px 3px 5px black;
 }
+
+.messages {
+  position: absolute;
+  left: 1rem;
+  bottom: 1rem;
+}
+
+.messages .message {
+  list-style-type: none;
+}
+
 
 @media screen and (max-width: 600px) {
   .content {
